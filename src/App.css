@@ -1,0 +1,68 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+
+  width: 28%;
+  border-radius: 7px;
+  margin: 5px;
+  padding: 10px;
+  background-color: rgb(80, 80, 80);
+}
+
+.All-Cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Sub-Text {
+  margin-bottom: 7px;
+}
+
+.Inputs {
+  width: 15%;
+  margin: 10px;
+}
+
+.Text-Comp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Input-Comp {
+  background-color: rgba(0, 0, 0, 0.404);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(44, 41, 41);
+}
+
+.Delete {
+  margin-top: 30px;
+}
+
+h1 {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+.Function-Buttons {
+  border: none;
+  padding: 6px 20px 6px 20px;
+  border-radius: 25px;
+  color: white;
+  background-image: linear-gradient(to right, #464646 7%, #658cf6 100%);
+}
